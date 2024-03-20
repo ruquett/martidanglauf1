@@ -1,0 +1,32 @@
+*{
+    margin: auto;
+    text-align: center;
+}
+
+#container{
+    margin: auto;
+    max-width: 1000px;
+    height: 250px;
+    background: url(senegal.jpg);
+    background-position: center;
+	background-size: cover;
+}
+
+img
+{
+    width: 500px;
+    border: 10px solid black;
+}
+
+h1
+{
+    font-size: 150px;
+}
+
+#pie{
+    font-size: 13px;
+}
+
+.des{
+    background-color: lightblue;
+}

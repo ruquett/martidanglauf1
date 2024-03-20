@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE senegal SYSTEM "senegal.dtd">
+
+<senegal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="senegal.xsd">
+  <nombre>Senegal</nombre>
+  <poblacion>16.88M</poblacion>
+  <continente>Africa</continente>
+  <capital>
+    <nombre>Dakar</nombre>
+    <coordenadas>
+      <latitud>14.497401</latitud>
+      <longitud>-14.452362</longitud>
+    </coordenadas>
+  </capital>
+  <fotografias>
+    <fotografia>
+      <nombre>bandera</nombre>
+      <descripcion>imagen de la bandera de Senegal</descripcion>
+      <url>https://es.wikipedia.org/wiki/Senegal#/media/Archivo:Flag_of_Senegal.svg</url>
+    </fotografia>
+    <fotografia>
+      <nombre>mapa</nombre>
+      <descripcion>imagen de la ubicacion de Senegal</descripcion>
+      <url>https://upload.wikimedia.org/wikipedia/commons/0/0c/Senegal_in_its_region.svg</url>
+    </fotografia>
+  </fotografias>
+</senegal>

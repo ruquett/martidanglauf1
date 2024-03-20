@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paises SYSTEM "paises.dtd">
+<paises>
+  <pais id="p01">
+    <nombre>Francia</nombre>
+    <continente>Europa</continente>
+    <capital>París</capital>
+    <superficie>551695</superficie>
+    <poblacion>67081000</poblacion>
+    <ciudades>
+      <ciudad>Lyon</ciudad>
+      <ciudad>Marsella</ciudad>
+      <ciudad>Niza</ciudad>
+    </ciudades>
+    <lenguas>
+      <lengua>Francés</lengua>
+    </lenguas>
+    <religiones>
+      <religion>Cristianismo</religion>
+      <religion>Islam</religion>
+    </religiones>
+    <moneda>Euro</moneda>
+  </pais>
+  <pais id="p02">
+    <nombre>Italia</nombre>
+    <continente>Europa</continente>
+    <capital>Roma</capital>
+    <superficie>301340</superficie>
+    <poblacion>60360000</poblacion>
+    <ciudades>
+      <ciudad>Milán</ciudad>
+      <ciudad>Nápoles</ciudad>
+      <ciudad>Turín</ciudad>
+    </ciudades>
+    <lenguas>
+      <lengua>Italiano</lengua>
+    </lenguas>
+    <religiones>
+      <religion>Cristianismo</religion>
+    </religiones>
+    <moneda>Euro</moneda>
+  </pais>
+</paises>

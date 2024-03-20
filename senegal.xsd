@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <!-- Defeinición de elementos hoja -->
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="poblacion" type="xs:string"/>
+  <xs:element name="continente" type="xs:string"/>
+  <xs:element name="latitud" type="xs:float"/>
+  <xs:element name="longitud" type="xs:float"/>
+  <xs:element name="descripcion" type="xs:string"/>
+  <xs:element name="url" type="xs:string"/>
+  
+  <!-- Defeinición de elementos compuestos -->
+  <xs:element name="coordenadas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="latitud"/>
+        <xs:element name="longitud"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="fotografia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre"/>
+        <xs:element name="descripcion"/>
+        <xs:element name="url"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>  
+  
+  <xs:element name="capital">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre"/>
+        <xs:element name="coordenadas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>  
+  
+  <xs:element name="fotografias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fotografia" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="senegal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre"/>
+        <xs:element name="poblacion"/>
+        <xs:element name="continente"/>
+        <xs:element name="capital"/>
+        <xs:element name="fotografias"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>
